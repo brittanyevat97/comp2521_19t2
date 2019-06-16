@@ -1,0 +1,6 @@
+computePoly(A, n, x):
+    p = A[n]
+    for all i = n-1 .. 0 do
+        p = p * x + A[i]
+    end for
+    return p
